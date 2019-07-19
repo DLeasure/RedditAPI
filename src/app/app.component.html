@@ -1,0 +1,11 @@
+<h1>
+  Awww, home of the cutest floofs around!
+</h1>
+
+<ol>
+  <li *ngFor="let post of posts">
+    <app-result [postObject]="post"></app-result>
+  </li>
+</ol>
+
+<!-- {{ posts[0] }} -->
